@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Kseniya Shin, MD Ph.D | Barberry Clinic</title>
+    <title>Kseniya Shin, MD Ph.D | Barberry Clinic</title>
+    <meta name="description" content="Barberry Clinic is a small private practice in Eastlake, led by Dr. Kseniya Shin, offering psychiatric medication management and psychotherapy for adults (18+) in greater Seattle.">
     <link rel="stylesheet" href="style.css">
     <!-- Google Fonts for clean typography -->
-    <link rel="preconnect" href="https://googleapis.com">
-    <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- Header / Navigation -->
     <header class="site-header">
         <div class="container header-container">
-            <a href="#" class="logo">Dr. Kseniya Shin, MD Ph.D</br>Barberry Clinic</a>
-            <nav class="main-nav">
+            <a href="#home" class="logo">
+                <span class="logo-name">Kseniya Shin, MD Ph.D</span>
+                <span class="logo-sub">Barberry Clinic</span>
+            </a>
+            <nav class="main-nav" aria-label="Primary">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#fees">Fees</a></li>
+                    <li><a href="#getting-started">Getting Started</a></li>
+                    <li><a href="#contact" class="nav-cta">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -29,66 +35,186 @@
 
     <main>
         <!-- Hero Section -->
-        <section id="home" class="hero-section">
-            <div class="container hero-container">
-                <div class="hero-image">
-                    <!-- Replace with your image file path -->
-                    <img src="https://media.istockphoto.com/id/1249770991/vector/fresh-red-berries-and-purple-leaves-of-japanese-barberry-plant-watercolor-hand-drawn.jpg?s=1024x1024&w=is&k=20&c=mf1C6SuXO9C3qvghXQ3Y9LKyWpt_DeXV3qKI-4zz3aM=" alt="Dr. Kseniya Shin">
-                </div>
-                <div class="hero-text">
-                    <h1>Welcome!</h1>
-                    <p class="lead-text">I am a psychiatrist offering psychotherapy and medication management for adults in Seattle.</p>
-                    <a href="#contact" class="btn">Schedule an Appointment</a>
-                </div>
+        <section id="home" class="hero">
+            <div class="hero-panel">
+                <p class="kicker">Kseniya Shin, MD Ph.D &middot; Seattle</p>
+                <h1>Barberry<br>Clinic</h1>
+                <p class="hero-lead">Psychiatric Medication Treatment &amp; Psychotherapy.</p>
+                <a href="#contact" class="btn">Schedule an Appointment</a>
             </div>
- </section> 
-   <!--     </section> --->
-        <!-- About & Education Section -->
-        <section id="about" class="about-section">
-            <div class="container about-container">
-                <div class="about-bio">
-                    <h2>About Me</h2>
-                    <p>I provide compassionate, evidence-based psychotherapy and medication management tailored to your unique life circumstances. My practice focuses on adults experiencing anxiety, depression, life transitions, stress, or professional burnout. I primarily work in-person from my office located in Seattle.</p>
+            <div class="hero-media" role="img" aria-label="Barberry Clinic"
+                 style="background-image:url('iStock-1249770991_2.jpeg');"></div>
+        </section>
+
+        <!-- Welcome Section -->
+        <section id="welcome" class="section section--cream">
+            <div class="container narrow">
+                <div class="section-head">
+                    <span class="rule"></span>
+                    <h2>Welcome!</h2>
                 </div>
-                <div class="about-education">
-                    <h2>Education & Training</h2>
-                    <ul class="education-list">
-                        <li><strong>University of Washington</strong> – Psychiatry Residency</li>
-                        <li><strong>University of Washington</strong> – Medical Degree (MD)</li>
-                        <li><strong>Wesleyan University</strong> – Bachelor of Science</li>
-                    </ul>
+                <p class="lead-text">Barberry Clinic is a small private practice in Eastlake, led by Dr Kseniya Shin,
+                    offering psychiatric medication treatment and psychotherapy for adults (18+) in greater Seattle.</p>
+            </div>
+        </section>
+
+        <!-- About & Education Section -->
+        <section id="about" class="section section--green">
+            <div class="container">
+                <div class="section-head">
+                    <span class="rule"></span>
+                    <h2>About</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-media">
+                        <img src="HeadShot.png" alt="Dr. Kseniya Shin">
+                    </div>
+                    <div class="about-bio">
+                        <p>Dr. Shin completed medical and graduate studies at the University of Washington,
+                            followed by psychiatry residency training in various hospital systems including
+                            University of Washington Medical Center, Seattle Children&rsquo;s Hospital,
+                            and Harborview Medical Center. They are continuing their research in PTSD and
+                            autonomic adaptation and are dedicated to developing more nuance in personalizing
+                            care for folks who experienced and/or are experiencing trauma. Dr. Shin also has a
+                            particular interest in working with LGBTQIA+ community.</p>
+
+                        <blockquote>
+                            <p>&ldquo;I feel deeply committed to support your journey and growth in ways that align with your values.
+                                Together, we can craft a therapeutic space where my expertise in psychopharmacology and
+                                psychotherapy can serve your goals.</p>
+                            <p>Please contact me directly for more information including fees, payment methods, and other questions.
+                                I offer free 30 min phone consultation to help us determine if this could be a good fit.&rdquo;</p>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="education">
+                    <h3>Education &amp; Training</h3>
+                    <div class="education-grid">
+                        <div class="education-item">
+                            <h4>Residency in General Adult Psychiatry</h4>
+                            <p class="education-school">University of Washington (Seattle, WA)</p>
+                            <ul>
+                                <li>Psychiatry Residency Research Program</li>
+                                <li>Served as Research Chief Resident</li>
+                                <li>Area of Distinction in Research</li>
+                            </ul>
+                        </div>
+                         <div class="education-item">
+                            <h4>Doctor of Philosophy (PhD) in Chemistry</h4>
+                            <p class="education-school">University of Washington (Seattle, WA)</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Medical Degree (MD)</h4>
+                            <p class="education-school">University of Washington (Seattle, WA)</p>
+                        </div>
+                       
+                         <!-- <div class="education-item">
+                            <h4>Bachelor of Science in Physics</h4>
+                            <p class="education-school">University of Washington (Seattle, WA)</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Bachelor of Science in Chemistry</h4>
+                            <p class="education-school">University of Washington (Seattle, WA)</p>
+                        </div>-->
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Services Preview Section -->
-        <section id="services" class="services-section">
+        <!-- Services Section -->
+        <section id="services" class="section section--cream">
             <div class="container">
-                <h2>Services Provided</h2>
+                <div class="section-head center">
+                    <span class="rule"></span>
+                    <h2>Services Provided</h2>
+                </div>
                 <div class="services-grid">
-                    <div class="service-card">
+                    <article class="service-card">
                         <h3>Psychotherapy</h3>
-                        <p>In-depth, collaborative talk therapy sessions helping you navigate transitions, relationships, and emotional growth.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>Medication Management</h3>
-                        <p>Careful evaluation, implementation, and ongoing management of psychiatric medications when aligned with your goals.</p>
+                        <p>&ldquo;I am trained in different psychotherapy modalities including supportive psychotherapy, psychodynamic psychotherapy, CBT, CPT, and DBT. In addition, I am continuing my training to include psychoanalytic theory and framework.</p>
+                        <p>As we work together, there is flexibility in what approach is used. I also aim to work with you on building a therapeutic space that is welcoming to all the parts of you and conducive to developing insight and understanding of self.  The work done in therapy can pave the way forward as you connect/reconnect to your values and agency. In this therapeutic space, we can also integrate psychiatric medication management if indicated.&rdquo;</p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Medication Consultation</h3>
+                        <p>&ldquo;If you are already working with a therapist, I have a space in my practice to provide medication management focused care. As part of the evaluative process and treatment, I incorporate psychoeducation, elements of psychotherapy, and behavioral/lifestyle recommendations to support your goals.&rdquo;</p>
+                        <p class="note-label"><strong>NOTE:</strong> Due to the limitations of my practice, there are certain services I am not able to offer including: dialectical Behavioral Therapy (DBT) as a comprehensive treatment program, child/adolescent services, disability evaluations, 
+                            forensic evaluations, labor &amp; industries assessments, court-ordered treatment, assessments for work, child custody, and firearm/weapon ownership.
+                          
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fees Section -->
+        <section id="fees" class="section section--green">
+            <div class="container narrow">
+                <div class="section-head">
+                    <span class="rule"></span>
+                    <h2>Fees &amp; Insurance</h2>
+                </div>
+                <p>I am currently out-of-network for all insurance providers and can provide you with a monthly itemized receipt (&lsquo;superbill&rdquo;) which you can use to seek possible reimbursement. I encourage you to contact your insurance provider to inquire about your benefits and coverage for out-of-network mental health services.</p>
+                <p>Please know that this will change in coming months as I am in the process of becoming an in-network provider for Premera, Regence and other insurance plans. Please check here to view updates.</p>
+                <p>Please contact me directly for more information about current fees and payment methods. I typically provide more information regarding practice policies and fees after our initial conversation and prior to our first appointment.</p>
+                <p>Good Faith Estimate and No Surprises Act: You have the right to receive a good faith estimate explaining how much your medical care will cost if you do not have insurance or are not using insurance. For more information, see <a href="https://www.cms.gov/nosurprises" target="_blank" rel="noopener">https://www.cms.gov/nosurprises</a>.</p>
+            </div>
+        </section>
+
+        <!-- Getting Started Section -->
+        <section id="getting-started" class="section section--cream">
+            <div class="container">
+                <div class="section-head">
+                    <span class="rule"></span>
+                    <h2>Getting Started</h2>
+                </div>
+                <div class="getting-started-grid">
+                  <div class="getting-started-media">
+                        <img src="Office.jpg" alt="Dr. Kseniya Shin">
+                  </div>
+                  <div class="getting-started-text">
+                <p>I work in person at my office in Eastlake. I also have Telehealth availability if strongly preferred. If you are interested in free consultation to see if this is a good fit, please call (360) 364-3613 and leave a voicemail with your name, call back number, a couple of times that could work for a free phone consultation, and a brief message describing what you are looking for. If I am available, I will call back for a free consultation (up to 30 min) to determine if we want to move forward with scheduling an appointment.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="contact-section">
-            <div class="container contact-container">
-                <h2>Reach Out to Set Up an Appointment</h2>
-                <div class="contact-info">
-                    <p><strong>Email:</strong> kseniyashin@barberryclinic.com</p>
-                    <p><strong>Phone:</strong> 206-555-0199</p>
-                    <p><strong>Fax:</strong> 206-555-0198</p>
+        <section id="contact" class="section section--green">
+            <div class="container">
+                <div class="section-head center">
+                    <span class="rule"></span>
+                    <h2>Reach Out to Set Up an Appointment</h2>
                 </div>
-                <div class="crisis-disclaimer">
-                    <p><em>If you are experiencing a life-threatening emergency, please call 911 or go to the nearest emergency room. For urgent mental health crises, call the National Suicide and Crisis Lifeline at 988.</em></p>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p><span class="contact-label">Phone</span>
+                            <a href="tel:+13603643613">(360) 364-3613</a></p>
+                        <p><span class="contact-label">Fax</span>
+                            (360) 795-1138</p>
+                        <p><span class="contact-label">Email</span>
+                            <a href="mailto:kseniya.shin@barberryclinic.com">kseniya.shin@barberryclinic.com</a></p>
+                        <p><span class="contact-label">Address</span>
+                            124 E Edgar St<br>Seattle, WA 98102</p>
+                        <p class="crisis-disclaimer"><em>If you are experiencing a life-threatening emergency, please call 911 or go to the nearest emergency room. For urgent mental health crises, call the National Suicide and Crisis Lifeline at 988.</em></p>
+                    </div>
+                    <form class="contact-form" action="mailto:kseniya.shin@barberryclinic.com" method="post" enctype="text/plain">
+                        <div class="form-row">
+                            <label>First name*
+                                <input type="text" name="first_name" required>
+                            </label>
+                            <label>Last name*
+                                <input type="text" name="last_name" required>
+                            </label>
+                        </div>
+                        <label>Email*
+                            <input type="email" name="email" required>
+                        </label>
+                        <label>Message*
+                            <textarea name="message" rows="5" required></textarea>
+                        </label>
+                        <button type="submit" class="btn btn-block">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -97,11 +223,27 @@
     <!-- Footer -->
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2026 Dr. Kseniya Shin, MD. Ph.D All rights reserved.</p>
+            <p>&copy; 2026 Barberry Clinic. All rights reserved.</p>
         </div>
     </footer>
 
-</body>
-</html>
+    <script>
+        // Progressive enhancement: reveal-on-scroll (no-JS users see everything).
+        document.documentElement.classList.add('js');
+        window.addEventListener('DOMContentLoaded', function () {
+            var els = document.querySelectorAll('.section, .hero-panel, .service-card, .education-item');
+            if (!('IntersectionObserver' in window)) {
+                els.forEach(function (el) { el.classList.add('in'); });
+                return;
+            }
+            var io = new IntersectionObserver(function (entries) {
+                entries.forEach(function (e) {
+                    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+                });
+            }, { threshold: 0.12 });
+            els.forEach(function (el) { io.observe(el); });
+        });
+    </script>
 
+</body>
 </html>
