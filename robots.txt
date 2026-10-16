@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /config
+Disallow: /search
+Allow: /
+
+Sitemap: https://www.barberryclinic.com/sitemap.xml
+Host: www.barberryclinic.com
